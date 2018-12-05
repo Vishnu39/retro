@@ -9,10 +9,10 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    public static final String USER_IMG_URL = "http://onfully.in/user/image/";
-    public static final String BASE_IMG_URL = "http://onfully.in/images/";
-    public static final String BASE_URL = "http://onfully.in/api/";
-    public static final String PROFILE_BASE_URL = "http://onfully.in/";
+    public static final String USER_IMG_URL = "http://on.in/user/image/";
+    public static final String BASE_IMG_URL = "http://on.in/images/";
+    public static final String BASE_URL = "http://on.in/api/";
+    public static final String PROFILE_BASE_URL = "http://on.in/";
 
     private static Retrofit retrofit = null;
         public static Retrofit getClient() {
